@@ -1,0 +1,17 @@
+# CS 411 Project Ideas
+
+Idea 1: Movie Generator Using User Playlist History from Spotify
+
+  This project would get the user's playlist data/recently listened songs from Spotify and recommend a list of movies for the user.
+  
+  
+  
+Idea 2: Music Suggestions based on Movie Preference
+
+  This project would allow the user to select favorite movies, which would be analyzed to generate a playlist on Spotify depending on the type of movie genre, theme, etc.
+  
+
+Idea 3: Restaurant Recommendations depending on Local Weather
+  
+   This project scrapes local weather data, and depending on the weather, our project will make restaurant recommendations within a 15 mile radius.
+   
