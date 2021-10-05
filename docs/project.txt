@@ -2,10 +2,14 @@
 
 Idea 1: Music Suggestions based on Movie Preference
 
-  This project would allow the user to select favorite movies, which would be analyzed to generate a playlist on Spotify depending on the type of movie genre, theme, etc. The APIs used (for now, may change) would be the Spotify API to make music/playlist suggestions, and either the Rotten Tomatoes API or The Movie Database (TMDb) API to analyze the overall tone/mood of the user's selected movies. OAuth token would come into play with Spotify.
+  This project would allow the user to select favorite movies, which would be analyzed to generate a playlist on Spotify depending on the type of movie genre, theme, etc. 
+  The APIs used (for now, may change) would be the Spotify API to make music/playlist suggestions, and either the Rotten Tomatoes API or The Movie Database (TMDb) API to analyze the overall tone/mood of the user's selected movies. 
+  OAuth token would come into play with Spotify.
   
 
 Idea 2: Restaurant Recommendations depending on Local Weather
   
-   This project scrapes local weather data, and depending on the weather, our project will make restaurant recommendations within a 15 mile radius. The user would be asked to log in with either Facebook or Google to access restaurant recommendations. APIs used will be the Weather Channel API to access local weather data and the Yelp Fusion API to retrieve business reviews and ratings and information for restaurants in the selected geographic region/location.
+   This project scrapes local weather data, and depending on the weather, our project will make restaurant recommendations within a 15 mile radius. 
+   The user would be asked to log in with either Facebook or Google to access restaurant recommendations. 
+   APIs used will be the Weather Channel API to access local weather data and the Yelp Fusion API to retrieve business reviews and ratings and information for restaurants in the selected geographic region/location.
    
