@@ -1,4 +1,4 @@
-US2.1: The other page the user is sent to after confirming movie choices and playlist is generated
+US3: The other page the user is sent to after confirming movie choices and playlist is generated
 
 The page will have the following:
 A link that will take you to the Spotify playlist
