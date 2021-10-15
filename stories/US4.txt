@@ -1,0 +1,14 @@
+User Story 4: Recommendation
+
+As a user, I want to have an automatically generated playlist based on the popular movies on that (day, week, or month), 
+  I want to know what playlist/moview other users like.
+
+- I hope to see the “popular playlist” before I get to select my own movie (probably appears below the “start selecting movies”, 
+  or homepage if we have).
+  
+- For the features on the “popular playlist”, they should be the same as the generated playlist. 
+  The only difference is that this playlist is automatically generated as a recommendation. I want it to look fancier like a  
+  ranking system, cuz it is a list of popular musics.
+  
+- If the recommendation fails, it means no one has generated their own playlist in that time period(day, week, or month). 
+  In this case, the original spot of the popular playlist will be replaced by an error message “popular playlist is currently empty”.
