@@ -1,6 +1,7 @@
-As a logged-in user I want to able to select movies to generate a playlist
+As a logged-in user I want to able to select movies to generate a playlist.
 
-Given that I'm logged in, I see the opening page featuring a search bar. 
+Given that I'm logged in, I see the opening page and click on the "start selecting movies" button
+This moves me to another page, where there is a search bar and an area where my currently selected movies are.
 I can type in the title of a movie, click search, and have it appear in the search terms. 
 I can select one or more movies from the search terms by clicking on them. 
 The selected movies appear on my screen in a separate area from the search terms.
@@ -8,5 +9,5 @@ I can click on my selected movies in that separate area to unselect them, once I
 (At any point prior, I can change my search input and search again to have different movies appear in the search terms)
 (Selected movies in the selected movies area are saved even when I change my search terms)
 
-I can click on a confirm button in that "selected movies area" to confirm my choices and add them to the entire session's choices.
-I can click an exit button, to get out of the selection process at any point and return to the homescreen before confirming.
+I can click on a confirm button in that "selected movies area" to confirm my choices, generating my playlist, and entering another page.
+I can click an exit button, to get out of the selection process at any point and return to the search bar page (line 4). My selected movies are saved.
