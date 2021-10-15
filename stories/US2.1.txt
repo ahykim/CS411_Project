@@ -1,0 +1,6 @@
+US2.1: The other page the user is sent to after confirming movie choices and playlist is generated
+
+The page will have the following:
+A link that will take you to the Spotify playlist
+A button action that will take you back to the movie selection page for updating
+
