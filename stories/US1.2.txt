@@ -1,3 +1,10 @@
 User Story 1.2: OAuth
 
-As a user I want to allow 
+As a user I want to allow the web app to use my Spotify login information.
+
+After entering my information into the login in the web app space I will be directed to an OAuth page asking me to confirm that I authorize the web app to use my Spotify login information. 
+
+If I confirm and I have entered valid login, I will be directed back to the home page of the web app.
+
+If I confirm and I have not entered a valid login, I will be directed to a Spotify page to enter my valid login. If my login credentials are then valid, I will then be directed back to the authorization page and start at the beginning of this process.
+
