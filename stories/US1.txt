@@ -1,0 +1,11 @@
+User Story 1: Login 
+
+As a user I want to login to Spotify so that playlists can be created and saved based on the movies I select.
+  
+I will open the app to the login page connected to Spotify and will be asked to log in using my Spotify account information.
+
+After entering and submitting my information, the login will either be successful or unsuccessful (US1.1).
+
+If the login is successful, I will be directed to a new page that confirms access to my Spotify account (US1.2). After confirming this information, I will be directed to the home page of the web app.
+
+I will see the opening page that features a search bar.
