@@ -1,0 +1,7 @@
+User Story 1.1: Unsuccessful Login
+
+As a user I want to be able to attempt another login to Spotify. 
+
+If my login is unsuccessful, I will be directed to a page that informs them that the fields they entered were invalid. I will see an option "Forgot Password?" underneath the login fields. This link will direct me to Spotify's platform to reset a password. 
+
+If I want to attempt another login with updated information, either after updating my password or not, I will follow the same process in US1.
