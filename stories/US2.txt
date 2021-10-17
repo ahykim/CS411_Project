@@ -10,4 +10,4 @@ I can click on my selected movies in that separate area to unselect them, once I
 (Selected movies in the selected movies area are saved even when I change my search terms)
 
 I can click on a confirm button in that "selected movies area" to confirm my choices, generating my playlist, and entering another page.
-I can click an exit button, to get out of the selection process at any point and return to the search bar page (line 4). My selected movies are saved.
+I can click an exit button, to get out of the selection process at any point and return to the opening page on (line 3). My movie selections are now gone.

@@ -1,0 +1,5 @@
+I will be sent to another page after confirming movie selection.
+
+On the page, I see a link to the generated Spotify playlist and am able to click on it.
+The link will take me to Spotify and present the playlist as a normal Spotify playlist would.
+I can click on a back button that will bring me back to movie selection for updating.
