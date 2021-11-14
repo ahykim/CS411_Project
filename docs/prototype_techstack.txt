@@ -1,0 +1,8 @@
+Our technology stack: React/Flask
+
+We chose Flask for our back-end because it seemed more minimal than other options and because our team was more comfortable working with Python than other langugages. Python's libraries, such as requests, make for easy use of APIs.
+We also considered Node.js, but most of us are not as experienced with JavaScript as we are with Python. We also read that debugging and maitenance require more work for Node.js than Flask. Django, which is based in Python, was another consideration, but we read that is was less flexible and provides less freedom in development.
+
+We chose React for our front-end. The UI is built from components, so it is easier to note changes in appearance and get a feel for what the user will see. We noticed that the learning curve for React tends to be shorter than for other options.
+React has robust community support, so solutions to issues we may run into should be easy to locate. Further, due to its one-way data flow, it is easier to debug and makes the code more stable. 
+We also considered Angular, which has two-way data flow, but found that as a tradeoff in exchange for reduced complexity with React.
