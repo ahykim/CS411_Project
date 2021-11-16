@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <h1>CS 411 Team 5 Movie Search</h1>
+    <form action="" method="Post" novalidate>
+      {{ form.hidden_tag() }}
+      <p>
+        {{ form.movieSearch.label }}<br />
+        {{ form.movieSearch(size=32) }}
+      </p>
+    
+      <p>{{ form.submit() }}</p>
+    </form>
+  </body>
+</html>

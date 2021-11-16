@@ -1,1 +1,3 @@
+Our Technology Stack: React/Flask
 
+prototype_techstack.txt
