@@ -1,1 +1,1 @@
-CS 411 Team 5's prototype for assignment 3
+CS 411 Team 4's prototype for assignment 3
