@@ -2,8 +2,6 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 import json
 
-#username = '5u2ri8pet9jmvyh9gu66olpxy'
-
 class SpotifyAPI(object):
     client_id = None
     client_secret = None
