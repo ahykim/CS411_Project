@@ -37,8 +37,8 @@ class SpotifyAPI(object):
 
 
 # client stuff, this shouldn't be here 
-client_id = ""
-client_secret = ""
+client_id = "49b72ad3205148bfb5ea7922a7b9eba9"
+client_secret = "9fd762547d2f4626b3b619c8688d9db2"
 redirect_uri = "http://127.0.0.1:8080/"
 
 # Example running this code
