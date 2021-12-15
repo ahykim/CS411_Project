@@ -14,7 +14,11 @@ class SpotifyAPI(object):
         self.client_id = client_id
         self.client_secret = client_secret
         self.redirect_uri = redirect_uri
-        self.token = SpotifyOAuth(client_id = self.client_id, client_secret = self.client_secret, redirect_uri = self.redirect_uri, scope='playlist-modify-public user-read-private', username=username)
+        self.token = SpotifyOAuth(client_id = self.client_id, 
+                                  client_secret = self.client_secret, 
+                                  redirect_uri = self.redirect_uri, 
+                                  scope='playlist-modify-public playlist-modify-private user-read-private ugc-image-upload', 
+                                  username=username)
         self.username = username
         self.API = spotipy.Spotify(auth_manager = self.token)
 
@@ -28,11 +32,25 @@ class SpotifyAPI(object):
         song_list.append(result["tracks"]["items"][0]["uri"])
 
         prePlaylist = self.API.user_playlists(user=username)
-        playlist = prePlaylist["items"][0]["id"]
-        self.API.user_playlist_add_tracks(user=username, playlist_id=playlist, tracks=song_list)
-        return (prePlaylist["items"][0]["external_urls"]["spotify"])
+        playlist = prePlaylist["items"][0]
+        self.API.user_playlist_add_tracks(user=username, playlist_id=playlist["id"], tracks=song_list)
 
-
+        # Opens, reads, and uploads base64 of placeholder playlist image
+        f = open('no_song.txt', 'r', encoding='utf-8-sig')
+        image = f.read().rstrip()
+        self.API.playlist_upload_cover_image(playlist_id=playlist["id"], image_b64=image)
+        
+        # Create and output JSON with playlist name, image, and url
+        cover_image = self.API.playlist_cover_image(playlist["id"])
+        dictionary = {
+            "name": playlist['name'],
+            "image": cover_image[0]["url"],
+            "url": playlist['external_urls']['spotify']
+        }
+        json_object = json.dumps(dictionary, indent = 4)
+        with open("playlist.json", "w") as outfile:
+            outfile.write(json_object)
+        f.close()
 
 # client stuff, this shouldn't be here 
 client_id = "49b72ad3205148bfb5ea7922a7b9eba9"
@@ -44,5 +62,5 @@ username = input("Give your username: ")
 spotify = SpotifyAPI(username, client_id, client_secret, redirect_uri)
 spotify.createPlaylist()
 query = input("Give a song name: ")
-print(spotify.addSongs(query))
+spotify.addSongs(query)
 
