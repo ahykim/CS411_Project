@@ -2,8 +2,9 @@
 
 Idea 1: Music Suggestions based on Movie Preference
 
-  This project would allow the user to select favorite movies, which would be analyzed to generate a playlist on Spotify depending on the type of movie genre, theme, etc. 
-  The APIs used (for now, may change) would be the Spotify API to make music/playlist suggestions, and either the Rotten Tomatoes API or The Movie Database (TMDb) API to analyze the overall tone/mood of the user's selected movies. 
+  This project would allow the user to select favorite movies, which would be analyzed to generate a playlist on Spotify with a song based on that movie.
+  The APIs used (for now, may change) would be the Spotify API to make music/playlist suggestions, and either the Rotten Tomatoes API or The Movie Database (TMDb) API for the movie selections.
+
   OAuth token would come into play with Spotify.
   
 
