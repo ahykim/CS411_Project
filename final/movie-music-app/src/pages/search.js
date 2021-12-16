@@ -1,6 +1,6 @@
 import React from "react";
 
-const Search = () => {
+export default function Search() {
     return(
             <div>
                 <h1>Search for Movies</h1>
@@ -10,5 +10,3 @@ const Search = () => {
             </div>
     )
 }
-
-export default Search;
