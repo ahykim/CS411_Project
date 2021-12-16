@@ -6,14 +6,5 @@
        <li>{{movie}}</a></li>
       {%endfor%}
     </ul>
-    <form action="" method="Post" novalidate>
-      {{ form.hidden_tag() }}
-      <p>
-        {{ form.movieSearch.label }}<br />
-        {{ form.movieSearch(size=32) }}
-      </p>
-    
-      <p>{{ form.submit() }}</p>
-    </form>
   </body>
 </html>
