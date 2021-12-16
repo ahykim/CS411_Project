@@ -37,7 +37,7 @@ def movie_search():
             username = "31s5vavxp2gkfow5snvyrw5s6kya"
             spotify = spotifyTest.SpotifyAPI(username, client_id, client_secret, redirect_uri)
             spotify.createPlaylist()
-            playlistInfo = spotify.addSongs(movieSearch)
+            playlistInfo = spotify.addSongs(movies["title"])
 
             return render_template("spotify_results.html", 
                                     playlistTitle=playlistInfo["name"],
