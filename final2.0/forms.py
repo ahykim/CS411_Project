@@ -6,3 +6,6 @@ class MovieForm(FlaskForm):
     movieSearch = StringField('Movie', validators=[DataRequired()])
     submit = SubmitField('Submit')
 
+class SpotifyForm(FlaskForm):
+    spotifySearch = StringField('Movie', validators=[DataRequired()])
+    submit = SubmitField('Submit')
