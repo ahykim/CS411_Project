@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <h1>CS 411 Team 5 Spotify Search</h1>
+    <form action="" method="Post" novalidate>
+      {{ form.hidden_tag() }}
+      <p>
+        {{ form.spotifySearch.label }}<br />
+        {{ form.spotifySearch(size=32) }}
+      </p>
+    
+      <p>{{ form.submit() }}</p>
+    </form>
+  </body>
+</html>
